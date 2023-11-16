@@ -1,29 +1,3 @@
-# [Backstage](https://backstage.io) Terraform demo
-
-This is your newly scaffolded Backstage App, Good Luck!
-
-## Local environment
-To start the app, create your .env file from the `.env.template` file and insert these required env variables:
-
-- your AWS credentials
-  - AWS_ACCESS_KEY_ID
-  - AWS_SECRET_ACCESS_KEY
-- BUCKET_NAME: the name of the bucket for techdocs
-- GITHUB_TOKEN: your Github token to allow Backstage to connect to your repositories
-- your Github Oauth app for Backstage authentication:
-  - AUTH_GITHUB_CLIENT_ID
-  - AUTH_GITHUB_CLIENT_SECRET
-
-Then run:
-
-```sh
-make
-```
-This will build the docker image and start the containers for the application and the database, after the build finishes you can visit the application at:
-```sh
-localhost:3000
-```
-
 ## Infrastructure
 This demo uses Terraform to define and manage the AWS infrastructure that Backstage will use.  
 All the Terraform files are in the `terraform` directory, here's a list of the modules and the relative services:
