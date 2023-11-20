@@ -1,5 +1,0 @@
-{
-  "baseUrl": "http://backstage-alb-1321557707.ap-southeast-1.elb.amazonaws.com:3001",
-  "fixturesFolder": false,
-  "pluginsFile": false
-}

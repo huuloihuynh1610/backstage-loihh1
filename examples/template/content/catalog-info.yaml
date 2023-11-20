@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name | dump }}
+  annotations:
+    aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-west-2:111111111:example-pipeline
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
