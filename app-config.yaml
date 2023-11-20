@@ -1,18 +1,18 @@
 app:
   title: Backstage App
-  baseUrl: http://backstage-alb-373953286.ap-southeast-1.elb.amazonaws.com
+  baseUrl: 
 
 organization:
   name: LoiHH1
 
 backend:
-  baseUrl: http://backstage-alb-373953286.ap-southeast-1.elb.amazonaws.com
+  baseUrl: 
   listen:
     port: 7000
   csp:
     connect-src: ["'self'", 'http:', 'https:']
   cors:
-    origin: http://backstage-alb-373953286.ap-southeast-1.elb.amazonaws.com
+    origin: 
     methods: [GET, POST, PUT, DELETE]
     credentials: true
   database:
